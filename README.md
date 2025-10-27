@@ -1,7 +1,7 @@
 # 🛰 Telemetry App - Case Técnico Flutter
 
 Um aplicativo Flutter que mostra dados de telemetria em tempo real, incluindo localização, velocidade, aceleração e direção.
-
+[📱 Baixar o APK](https://github.com/jhonatacbarros/flutter_telemetry_app-test/raw/main/app-release.apk)
 ## 🎯 Funcionalidades
 
 - **📍 Localização GPS**: Mostra a posição atual no mapa
