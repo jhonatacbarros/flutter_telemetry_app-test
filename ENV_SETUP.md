@@ -3,13 +3,15 @@
 ## ✅ Arquivos Criados
 
 ### 📄 `.env`
+
 ```env
-GOOGLE_MAPS_API_KEY=AIzaSyCoCt8pXWGTFLhpTqU8v4UP65PY74tQ9aw
+GOOGLE_MAPS_API_KEY=YOUR_API_KEY_HERE
 ```
 
 ### 🚫 `.gitignore` (atualizado)
+
 ```
-# Environment variables and API keys  
+# Environment variables and API keys
 .env
 .env.local
 .env.production
@@ -66,11 +68,13 @@ flutter run
 **NUNCA** commite arquivos com API Keys para o Git!
 
 ### Para Produção:
+
 - Use variáveis de ambiente do servidor
 - Configure no CI/CD pipeline
 - Use serviços como Firebase Remote Config
 
 ### Para Compartilhar:
+
 - Envie o arquivo `.env` separadamente
 - Use ferramentas como 1Password ou Bitwarden
 - Documente no README como obter as keys
